@@ -1,0 +1,211 @@
+/***** BASE STYLES *****/
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+.two-thirds-width {
+    width: 800px;
+    float: left;
+}
+
+
+/***** HEADER *****/
+
+ h1 { 
+    padding: 15px 0px;
+    margin:10.72px 0px;
+    font-size:30px; 
+    font-weight:700;
+}
+
+
+header .third-width {
+    margin-top: 28px;
+
+}
+ 
+
+h1 span {
+    color: #77a466;
+}
+
+
+
+nav {
+    float: right; 
+    padding: 45px 0px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size: 14px;
+    color: #77a466;
+    margin:0px;
+    padding:0px 0px 0px 18px;
+    
+
+}
+
+#hero img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+
+
+/***** ABOUT *****/
+
+
+#about .full-width {
+    margin-top: 0px;
+}
+
+#about h2 {
+    
+    font-size:    18px;
+    color: #77a466;
+    font-weight: bold;
+    
+    
+}
+
+#about p {
+    font-size:16px;
+    
+    
+}
+
+
+
+
+/***** LOCATIONS (INCLS MENU, REVIEWS, CONTACT *****/
+
+
+
+
+#locations {
+    border-top: 2px solid #dedbdc;
+    border-bottom: 2px solid #dedbdc;
+    margin-left: 22px;
+    margin-right: 16px;
+    margin-top: 44px;
+    margin-bottom:28px;
+    
+    
+
+
+}
+
+#menu ul {
+    list-style: none;
+    font-size:16px;
+    color: #77a466;
+    text-align:start;
+    margin:0px 0px 70px 0px;
+    padding:0px;
+    
+}
+
+#menu ul li {
+    margin-top:25px;
+    margin-bottom:25px;
+
+}
+
+
+
+#locations h3 {
+    font-size:12px;
+    line-height: 14px;
+    
+}
+
+#menu h3 {
+    padding:30px 0px 5px;
+    
+}
+
+ #reviews {
+    border-right:2px solid #dedbdc;
+    border-left:2px solid #dedbdc;
+    height:270px;
+    display:inline-block;
+   
+}
+
+#reviews p {
+    font-size:16px;
+    line-height: 21px;
+    margin: 16px 0px;
+    padding:0px 30px;
+       
+}
+
+#reviews h3 {
+    text-indent: 30px;
+    padding:30px 0px 0px;
+    
+}
+
+#contact h3 {
+    text-indent: 30px;
+    padding:30px 0px 0px;
+    
+}
+
+#contact p {
+    font-size:16px;
+    margin: 12px 0px;
+    padding:0px 30px;
+    line-height: 35px;
+       
+}
+
+
+/***** FOOTER *****/
+
+
+
+footer {
+    font-size: 16px;
+    text-align:center;
+    font-weight: bold;
+    margin:16px 0px;
+    padding-bottom:15px;
+
+
+}
+
+
+footer span{
+    font-family: 'Dancing Script', cursive;
+    color:#77a466;
+    font-size: 20px;
+    font-weight:bold;
+
+
+}
